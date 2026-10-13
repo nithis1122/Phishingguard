@@ -1,0 +1,111 @@
+text,label
+"URL: https://accounts.google.com/signin",safe
+"URL: https://www.microsoft.com/en-us/security",safe
+"URL: https://github.com/login",safe
+"URL: https://www.amazon.com/orders",safe
+"URL: https://www.paypal.com/us/home",safe
+"URL: https://www.apple.com/support",safe
+"URL: https://www.wikipedia.org/",safe
+"URL: https://www.irs.gov/",safe
+"URL: https://www.bankofamerica.com/",safe
+"URL: https://www.linkedin.com/mypreferences/d/",safe
+"URL: https://support.google.com/accounts/",safe
+"URL: https://www.dropbox.com/",safe
+"URL: https://www.microsoft.com/account",safe
+"URL: https://www.amazon.com/gp/your-account/order-history",safe
+"URL: https://www.paypal.com/myaccount/summary",safe
+"URL: https://www.apple.com/legal/privacy/",safe
+"URL: https://www.mozilla.org/en-US/firefox/",safe
+"URL: https://www.nytimes.com/",safe
+"URL: https://www.chase.com/",safe
+"URL: https://www.netflix.com/",safe
+"URL: https://calendar.google.com/",safe
+"URL: https://docs.google.com/document/",safe
+"URL: https://www.gov.uk/",safe
+"URL: https://www.cloudflare.com/",safe
+"URL: https://stackoverflow.com/questions",safe
+"URL: https://www.adobe.com/acrobat/online.html",safe
+"URL: https://help.twitter.com/",safe
+"URL: https://www.wellsfargo.com/",safe
+"URL: https://www.shopify.com/",safe
+"URL: https://zoom.us/join",safe
+"URL: http://paypal-security-check.example.invalid/login",phishing
+"URL: http://paypa1-account-verify.example.invalid",phishing
+"URL: https://secure-login-update.example.invalid/confirm",phishing
+"URL: http://192.0.2.10/bank/login",phishing
+"URL: https://microsoft-password-reset.example.invalid",phishing
+"URL: http://appleid-locked.example.invalid/unlock",phishing
+"URL: https://amazon-refund-claim.example.invalid",phishing
+"URL: http://account-verification-required.example.invalid/signin",phishing
+"URL: https://bit.ly/urgent-account-update",phishing
+"URL: http://free-gift-card-claim.example.invalid",phishing
+"URL: https://g00gle-login.example.invalid",phishing
+"URL: http://paypal.com.security-check.example.invalid/verify",phishing
+"URL: https://dropbox-document-share.example.invalid/open",phishing
+"URL: http://invoice-payment-overdue.example.invalid",phishing
+"URL: https://wallet-recovery-phrase.example.invalid",phishing
+"URL: http://bank-alert-suspended.example.invalid/restore",phishing
+"URL: https://login-microsoftonline.example.invalid/owa",phishing
+"URL: http://support-apple-billing.example.invalid/payment",phishing
+"URL: https://docusign-review-document.example.invalid/sign",phishing
+"URL: http://secure-mailbox-quota.example.invalid/upgrade",phishing
+"URL: https://verify-your-tax-refund.example.invalid",phishing
+"URL: http://password-expired-validate.example.invalid",phishing
+"URL: https://crypto-airdrop-free.example.invalid/claim",phishing
+"URL: http://delivery-fee-redelivery.example.invalid/pay",phishing
+"URL: https://hr-payroll-update.example.invalid/employee",phishing
+"URL: http://webmail-authentication.example.invalid/login",phishing
+"URL: https://account-protection-center.example.invalid/confirm",phishing
+"URL: http://urgent-security-notice.example.invalid/validate",phishing
+"URL: https://gift-prize-winner.example.invalid/redeem",phishing
+"URL: http://payment-failed-update-card.example.invalid",phishing
+"EMAIL: Hi Alex, the team meeting is at 10 tomorrow. The notes are in our shared drive.",safe
+"EMAIL: Your library book is due next Tuesday. You can renew it at the library website.",safe
+"EMAIL: Thanks for your order. Your receipt is attached for your records.",safe
+"EMAIL: The project review has moved to Thursday. Please reply if you cannot attend.",safe
+"EMAIL: Your monthly statement is ready in the banking app you normally use.",safe
+"EMAIL: Here are the slides from today's presentation. Let me know if you have questions.",safe
+"EMAIL: Your appointment is confirmed for 2 PM. Call our office if you need to reschedule.",safe
+"EMAIL: We received your support request and will respond within two business days.",safe
+"EMAIL: The school newsletter is available on the parent portal.",safe
+"EMAIL: Your subscription renews next month. Manage it from your account settings.",safe
+"EMAIL: Please review the agenda before our planning meeting.",safe
+"EMAIL: The package was delivered to the address on your order.",safe
+"EMAIL: Your password was changed. If this was you, no action is needed.",safe
+"EMAIL: The monthly team update is attached. Have a great weekend.",safe
+"EMAIL: Your appointment reminder: please arrive ten minutes early.",safe
+"EMAIL: The invoice for your recent purchase is available in your account.",safe
+"EMAIL: We have updated our privacy notice. You can read it on our official website.",safe
+"EMAIL: Your application has been received. We will contact you with next steps.",safe
+"EMAIL: The event starts at 6 PM. Your ticket is saved in the event app.",safe
+"EMAIL: Thanks for contacting us. Your case number is 48291.",safe
+"EMAIL: URGENT: Your account is suspended. Verify your password now at http://account-fix.example.invalid",phishing
+"EMAIL: Your mailbox will be deleted today unless you sign in at http://mailbox-check.example.invalid",phishing
+"EMAIL: We detected unusual activity. Confirm your bank login immediately: http://bank-alert.example.invalid",phishing
+"EMAIL: You won a gift card. Claim your prize now and enter your card details at http://prize-claim.example.invalid",phishing
+"EMAIL: Your package is on hold. Pay a small redelivery fee at http://delivery-pay.example.invalid",phishing
+"EMAIL: Payroll update required. Reply with your password to avoid delayed payment.",phishing
+"EMAIL: Your payment failed. Update your card details now at http://billing-fix.example.invalid",phishing
+"EMAIL: IT support needs your one-time code immediately. Reply to this email.",phishing
+"EMAIL: Final notice: pay the overdue invoice today using this unusual payment link http://invoice-now.example.invalid",phishing
+"EMAIL: Your account will be locked in one hour. Verify your identity at http://secure-verify.example.invalid",phishing
+"EMAIL: Please open this shared document and sign in again: http://document-share.example.invalid",phishing
+"EMAIL: We are refunding you. Enter your bank details to receive the money at http://refund-check.example.invalid",phishing
+"EMAIL: Your subscription is cancelled. Restore access by entering your password at http://restore-account.example.invalid",phishing
+"EMAIL: Congratulations, you have been selected for a cash prize. Claim it now at http://cash-winner.example.invalid",phishing
+"EMAIL: I am the CEO. Buy gift cards urgently and email me the redemption codes.",phishing
+"EMAIL: Confirm your tax refund today by submitting your social security number at http://tax-refund.example.invalid",phishing
+"EMAIL: Your cloud storage is full. Sign in to upgrade immediately at http://storage-upgrade.example.invalid",phishing
+"EMAIL: Security alert: your account has been compromised. Send us the verification code to secure it.",phishing
+"EMAIL: New voicemail attached. Enable macros and sign in to listen.",phishing
+"EMAIL: Wire transfer pending. Review and approve it at http://wire-approval.example.invalid",phishing
+"EMAIL: The attached invoice is overdue. Pay with cryptocurrency to avoid legal action.",phishing
+"EMAIL: Your domain will expire tonight. Renew using this link http://domain-renew.example.invalid",phishing
+"EMAIL: A confidential file was shared with you. Sign in to view it at http://file-view.example.invalid",phishing
+"EMAIL: We need you to confirm your email password to keep your account active.",phishing
+"EMAIL: Your crypto wallet is at risk. Enter your recovery phrase at http://wallet-recovery.example.invalid",phishing
+"EMAIL: You have an unpaid toll. Pay now to avoid a penalty at http://toll-fee.example.invalid",phishing
+"EMAIL: Immediate action required: validate your employee account at http://hr-portal.example.invalid",phishing
+"EMAIL: Your social media account is reported. Appeal now at http://appeal-center.example.invalid",phishing
+"EMAIL: Refund processing failed. Reply with your full card number and security code.",phishing
+"EMAIL: Verify your identity by opening this attachment and entering your login credentials.",phishing

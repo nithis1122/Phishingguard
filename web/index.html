@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f5f7f4" />
+    <meta name="description" content="Check suspicious links and email text with an experimental phishing classifier." />
+    <title>Phishing Guard — Check before you click</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="/" aria-label="Phishing Guard home">
+        <span class="brand-mark" aria-hidden="true">P</span>
+        <span>phishing<span class="brand-light">guard</span></span>
+      </a>
+      <span class="status"><span class="status-dot"></span> Local scan · no history saved</span>
+    </header>
+
+    <main class="layout">
+      <section class="intro">
+        <div class="eyebrow"><span class="eyebrow-line"></span> A little caution goes a long way</div>
+        <h1>Pause. Check.<br /><span>Then click.</span></h1>
+        <p class="intro-copy">Paste a link or suspicious message. Our machine-learning model looks for patterns commonly associated with phishing.</p>
+        <div class="trust-note">
+          <span class="lock-icon" aria-hidden="true">◎</span>
+          <span>Your scan is processed by this app and is not saved.</span>
+        </div>
+      </section>
+
+      <section class="scanner-card" aria-labelledby="scan-title">
+        <div class="card-heading">
+          <div>
+            <span class="card-kicker">QUICK CHECK</span>
+            <h2 id="scan-title">What would you like to check?</h2>
+          </div>
+          <span class="spark" aria-hidden="true">✳</span>
+        </div>
+
+        <div class="mode-tabs" role="group" aria-label="Content type">
+          <button class="mode-tab active" type="button" data-kind="url" aria-pressed="true"><span aria-hidden="true">↗</span> URL</button>
+          <button class="mode-tab" type="button" data-kind="email" aria-pressed="false"><span aria-hidden="true">✉</span> Email text</button>
+        </div>
+
+        <form id="scan-form">
+          <label class="input-label" for="scan-input" id="input-label">Paste a link to check</label>
+          <div class="input-wrap">
+            <textarea id="scan-input" name="text" maxlength="12000" rows="4" placeholder="https://example.com/account/verify" required></textarea>
+            <span class="input-glyph" aria-hidden="true">↳</span>
+          </div>
+          <div class="input-meta">
+            <span id="input-hint">Tip: copy the link address without opening it.</span>
+            <span id="char-count">0 / 12,000</span>
+          </div>
+          <button class="scan-button" id="scan-button" type="submit">
+            <span>Scan for phishing</span><span class="button-arrow" aria-hidden="true">→</span>
+          </button>
+        </form>
+
+        <div class="result" id="result" role="status" aria-live="polite" hidden></div>
+        <p class="disclaimer">No scanner is perfect. Never enter passwords, payment details, or verification codes after following an unexpected link.</p>
+      </section>
+
+      <section class="how-it-works">
+        <div class="section-label">A FEW GOOD HABITS</div>
+        <div class="habit-grid">
+          <article class="habit">
+            <span class="habit-icon icon-mint" aria-hidden="true">⌕</span>
+            <div><h3>Check the real address</h3><p>Look for misspellings and unfamiliar domains.</p></div>
+          </article>
+          <article class="habit">
+            <span class="habit-icon icon-lilac" aria-hidden="true">◷</span>
+            <div><h3>Ignore the rush</h3><p>Urgent threats and surprise prizes are common lures.</p></div>
+          </article>
+          <article class="habit">
+            <span class="habit-icon icon-peach" aria-hidden="true">↗</span>
+            <div><h3>Verify another way</h3><p>Visit the official site or contact the sender directly.</p></div>
+          </article>
+        </div>
+      </section>
+
+      <footer>
+        <span>Phishing Guard <span class="footer-dot">·</span> Built for awareness</span>
+        <a href="/docs" target="_blank" rel="noreferrer">API docs <span aria-hidden="true">↗</span></a>
+      </footer>
+    </main>
+    <script src="/static/app.js" defer></script>
+  </body>
+</html>
